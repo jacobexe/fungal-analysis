@@ -1,0 +1,1 @@
+scoreboard players set is_active fungus_values 0

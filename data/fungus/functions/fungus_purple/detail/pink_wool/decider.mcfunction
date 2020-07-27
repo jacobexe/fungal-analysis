@@ -1,0 +1,3 @@
+#as at detailer
+#check for eligible glowtite position
+	execute if block ~ ~-1 ~ minecraft:pink_wool if block ~ ~-2 ~ minecraft:pink_wool if block ~ ~-3 ~ minecraft:purple_wool if block ~ ~-4 ~ minecraft:purple_wool if block ~ ~-5 ~ minecraft:purple_wool if block ~ ~-6 ~ minecraft:purple_wool if block ~ ~-7 ~ minecraft:purple_wool run execute positioned ~ ~-8 ~ run function fungus:fungus_purple/detail/pink_wool/glowtite/stage_checker
